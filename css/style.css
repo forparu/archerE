@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.up{
+	height: 1600px;
+}
+.down{
+	height: 1800px;
+}
+.target{
+	height: 300px;
+	width: 100%;
+	background-color: orangered
+}
+.archer{
+	display: block;
+    cursor: pointer;
+    line-height: 39px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 100;
+    background-color: RGBA(10,10,10,.3);
+    color: #fff;
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none;
+}
+.archer:hover{
+	background-color: RGBA(10,10,10,.5);
+}
