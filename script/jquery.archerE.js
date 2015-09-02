@@ -27,7 +27,11 @@
 
 		if (settings.target != '') {
 			var target = $('.'+settings.target);
-			targetFlag = true;
+			if (target.length < 1){
+				console.log('指定的target不存在')
+			} else {
+				targetFlag = true;
+			}
 		};
 
 		var shoot = function(){
